@@ -1,0 +1,3 @@
+[submodule "cvvr_evaluation_suite"]
+	path = cvvr_evaluation_suite
+	url = https://github.com/bhavyaalekhya/evaluation_suite.git
