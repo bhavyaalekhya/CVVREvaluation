@@ -15,7 +15,7 @@ GT_FILE="${ANNO_DIR}/${SPLIT}.caption_coco_format.json"
 NUM_FRAME=30
 OUTPUT_DIR=${DIR}/${TASK}
 
-python evaluate.py --anno_path ${ANNO_DIR} --video_path ${VIDEO_DIR} \
+python cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/evaluate.py --anno_path ${ANNO_DIR} --video_path ${VIDEO_DIR} \
 --task ${TASK} --dataset ${DATASET} --output_dir ${OUTPUT_DIR} --split ${SPLIT} --num_frames ${NUM_FRAME} --batch_size 16 \
 --prompt_file ${PROMPT_FILE} --timechat_model_path ${MODEL_DIR} \
 #--asr --asr_path ${ASR_DIR}
