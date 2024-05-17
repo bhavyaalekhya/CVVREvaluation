@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat"
+    ]
+}
