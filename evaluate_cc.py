@@ -1,5 +1,12 @@
 import copy
 import os
+import sys
+
+parent_directory = os.path.abspath(os.path.dirname(__file__))
+
+# Add the cvvr_evaluation_suite directory to the system path
+sys.path.append(os.path.join(parent_directory, 'cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat'))
+
 import torch
 import argparse
 from transformers import StoppingCriteria, StoppingCriteriaList
