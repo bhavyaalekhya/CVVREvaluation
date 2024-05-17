@@ -40,7 +40,6 @@ from utils.format_dvc import format_dvc_output
 from utils.format_tvg import format_tvg_output
 from utils.format_vhd import format_vhd_output
 
-
 def read_txt(path):
     with open(path, "r") as fin:
         data = fin.readline().strip()
@@ -226,6 +225,7 @@ def main(args):
     cudnn.benchmark = False
     cudnn.deterministic = True
 
+    print(args)
     cfg = Config(args)
     model_config = cfg.model_cfg
     model_config.device_8bit = args.gpu_id
