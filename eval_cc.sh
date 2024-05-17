@@ -20,7 +20,3 @@ python evaluate.py --anno_path ${ANNO_DIR} --video_path ${VIDEO_DIR} \
 --prompt_file ${PROMPT_FILE} --timechat_model_path ${MODEL_DIR} \
 #--asr --asr_path ${ASR_DIR}
 #--debug
-
-cd metrics/${TASK}
-python eval_${TASK}.py --pred_file "${OUTPUT_DIR}/fmt_${DATASET}_${SPLIT}_f${NUM_FRAME}_result.json" --gt_file ${GT_FILE} | tee "${OUTPUT_DIR}/fmt_${DATASET}_${SPLIT}_f${NUM_FRAME}_result.txt"
-cd ../..
