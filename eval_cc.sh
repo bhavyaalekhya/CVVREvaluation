@@ -12,7 +12,7 @@ PROMPT_FILE="./captain_cook_description_zeroshot.txt"
 GT_FILE="${ANNO_DIR}/${SPLIT}.caption_coco_format.json"
 #ASR_DIR='data/YouCook2-BB/YouCook2_asr_denseCap/whisper_outputs_with_time/small.en.cleaned/'
 
-NUM_FRAME=96
+NUM_FRAME=30
 OUTPUT_DIR=${DIR}/${TASK}
 
 python evaluate.py --anno_path ${ANNO_DIR} --video_path ${VIDEO_DIR} \
