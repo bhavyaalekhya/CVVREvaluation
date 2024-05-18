@@ -16,7 +16,7 @@ NUM_FRAME=13890
 OUTPUT_DIR=ckpt/captaincook
 
 python cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/evaluate_cc.py --anno_path ${ANNO_DIR} --video_path ${VIDEO_DIR} \
---task ${TASK} --dataset ${DATASET} --output_dir ${OUTPUT_DIR} --split ${SPLIT} --num_frames ${NUM_FRAME} --batch_size 16 \
+--task ${TASK} --dataset ${DATASET} --output_dir ${OUTPUT_DIR} --split ${SPLIT} --num_frames ${NUM_FRAME} --batch_size 1 \
 --prompt_file ${PROMPT_FILE} --timechat_model_path ${MODEL_DIR} \
 #--asr --asr_path ${ASR_DIR}
 #--debug
