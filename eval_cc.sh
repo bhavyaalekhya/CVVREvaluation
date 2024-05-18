@@ -5,7 +5,7 @@ MODEL_DIR=${DIR}/timechat_7b.pth
 
 TASK='captaincook'
 ANNO_DIR='./captain_cook_dvc.json'
-VIDEO_DIR='/data/rohith/captain_cook/videos/gopro/resolution_360p/'
+VIDEO_DIR='/data/bhavya/task_verification/CVVREvaluation/dataset/'
 DATASET='captaincook'
 SPLIT='test'
 PROMPT_FILE="./captain_cook_description_zeroshot.txt"
