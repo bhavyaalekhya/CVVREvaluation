@@ -13,7 +13,7 @@ GT_FILE="./captain_cook_dvc.json"
 #ASR_DIR='data/YouCook2-BB/YouCook2_asr_denseCap/whisper_outputs_with_time/small.en.cleaned/'
 
 NUM_FRAME=30
-OUTPUT_DIR=${DIR}/${TASK}
+OUTPUT_DIR=ckpt/captaincook
 
 python cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/evaluate_cc.py --anno_path ${ANNO_DIR} --video_path ${VIDEO_DIR} \
 --task ${TASK} --dataset ${DATASET} --output_dir ${OUTPUT_DIR} --split ${SPLIT} --num_frames ${NUM_FRAME} --batch_size 16 \
