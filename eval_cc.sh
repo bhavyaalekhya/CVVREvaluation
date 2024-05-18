@@ -9,7 +9,7 @@ VIDEO_DIR='/data/rohith/captain_cook/videos/gopro/resolution_360p/8_16_360p.mp4'
 DATASET='captaincook'
 SPLIT='test'
 PROMPT_FILE="./captain_cook_description_zeroshot.txt"
-GT_FILE="${ANNO_DIR}/${SPLIT}.caption_coco_format.json"
+GT_FILE="./captain_cook_dvc.json"
 #ASR_DIR='data/YouCook2-BB/YouCook2_asr_denseCap/whisper_outputs_with_time/small.en.cleaned/'
 
 NUM_FRAME=30
