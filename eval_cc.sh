@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="ckpt/TimeChat-7b"
+DIR="/data/bhavya/task_verification/ckpt/TimeChat-7b"
 MODEL_DIR=${DIR}/timechat_7b.pth
 
 TASK='captaincook'
