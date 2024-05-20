@@ -12,7 +12,7 @@ PROMPT_FILE="./captain_cook_description_zeroshot.txt"
 GT_FILE="./captain_cook_dvc.json"
 #ASR_DIR='data/YouCook2-BB/YouCook2_asr_denseCap/whisper_outputs_with_time/small.en.cleaned/'
 
-NUM_FRAME=96
+NUM_FRAME=30
 OUTPUT_DIR=ckpt/captaincook
 
 python cvvr_evaluation_suite/Video-LMMs-Inference/TimeChat/evaluate_cc.py --anno_path ${ANNO_DIR} --video_path ${VIDEO_DIR} \
